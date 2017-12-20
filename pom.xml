@@ -3,7 +3,7 @@
 
     <groupId>org.parceler</groupId>
     <artifactId>parceler-project</artifactId>
-    <version>1.1.10-SNAPSHOT</version>
+    <version>1.1.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Parceler Project</name>
@@ -79,11 +79,11 @@
                 <version>3.4</version>
             </extension>
         </extensions>
-        <properties>
-            <gib.referenceBranch>HEAD^1</gib.referenceBranch>
-            <gib.enabled>true</gib.enabled>
-        </properties>
     </build>
 
+<properties>
+        <gib.referenceBranch>HEAD^1</gib.referenceBranch>
+        <gib.enabled>true</gib.enabled>
+    </properties>
 </project>
 
